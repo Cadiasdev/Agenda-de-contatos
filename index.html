@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaContatos">
+            </tbody>
+    </table>
+
+    <h2>Novo Contato</h2>
+
+    <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
